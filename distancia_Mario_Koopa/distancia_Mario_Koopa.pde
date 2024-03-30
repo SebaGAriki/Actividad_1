@@ -1,6 +1,6 @@
-int posicionMario;
-int posicionKoopa;
-int distanciaMarioKoopa;
+float posicionMario;
+float posicionKoopa;
+float distanciaMarioKoopa;
 
 public void setup(){
   posicionMario = 9;
@@ -14,5 +14,5 @@ public void calcularDistancia(){
 }
 
 public void mostrarDistancia(){
-  println(distanciaMarioKoopa);
+  println("Mario esta a " + distanciaMarioKoopa + " metros de Koopa");
 }
